@@ -1,9 +1,16 @@
 #include<stdio.h>
-int main()
+int main (){
+for (int i=0; i<3; i++)
 {
-printf("hello world my name is durvendra");
-return 0;
+    for (int j=0; j<=i; j++){
+    printf("  ");
 
-
-
+    }
+    for(int k=3; k>i;k--)
+{
+    printf(" *");
+} 
+    printf("\n");
+}
+    
 }
